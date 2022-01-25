@@ -1,0 +1,17 @@
+{
+     "configurations": [
+          {
+               "command": "npm start",
+               "name": "Run npm start",
+               "request": "launch",
+               "type": "node-terminal"
+          },
+
+          {
+               "type": "pwa-chrome",
+               "name": "http://localhost:3000/",
+               "request": "launch",
+               "url": "http://localhost:3000/"
+          }
+     ]
+}

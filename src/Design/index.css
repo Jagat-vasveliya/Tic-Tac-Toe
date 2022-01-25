@@ -1,0 +1,15 @@
+.board {
+	display: grid;
+	grid-template-columns: 33.33vw 33.33vw 33.33vw;
+	grid-template-rows: 33.33vh 33.33vh 33.33vh;
+	height: 100vh;
+}
+.box {
+	display: flex;
+	border: 1px solid black;
+	font-size: 100px;
+	justify-content: center;
+	align-items: center;
+	font-weight: bolder;
+	cursor: pointer;
+}
